@@ -6,6 +6,6 @@
   "version": "1.0.0",
   "languages": ["pt-BR", "en"],
   "hosts": ["www.peppercarrot.com"],
-  "capabilities": ["search", "details", "chapters", "pages"],
+  "capabilities": ["search", "details", "preview", "chapters", "pages"],
   "license": "CC-BY-4.0"
 }

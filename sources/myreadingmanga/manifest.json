@@ -7,7 +7,7 @@
   "languages": ["ar", "id", "zh", "en", "de", "it", "ja", "ko", "pt-BR", "ru", "es", "tr", "vi"],
   "hosts": ["myreadingmanga.info"],
   "imageHosts": ["myreadingmanga.info", "i0.wp.com", "i1.wp.com", "i2.wp.com"],
-  "capabilities": ["search", "details", "chapters", "pages"],
+  "capabilities": ["search", "filters", "details", "preview", "chapters", "pages"],
   "contentRating": "adult",
   "verification": {
     "kind": "browser-cookie",

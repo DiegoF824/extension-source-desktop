@@ -6,6 +6,6 @@
   "version": "1.0.0",
   "languages": ["en"],
   "hosts": ["xkcd.com", "imgs.xkcd.com"],
-  "capabilities": ["search", "details", "chapters", "pages"],
+  "capabilities": ["search", "details", "preview", "chapters", "pages"],
   "license": "CC-BY-NC-2.5"
 }

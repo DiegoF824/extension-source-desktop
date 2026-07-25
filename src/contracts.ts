@@ -7,7 +7,9 @@ export interface DesktopSourceManifest {
   languages: string[]
   hosts: string[]
   imageHosts?: string[]
-  capabilities: Array<'search' | 'details' | 'chapters' | 'pages'>
+  capabilities: Array<
+    'search' | 'filters' | 'details' | 'preview' | 'chapters' | 'pages'
+  >
   contentRating?: 'safe' | 'adult'
   verification?: {
     kind: 'browser-cookie'
@@ -18,6 +20,7 @@ export interface DesktopSourceManifest {
 }
 
 export interface DesktopSourceAdapter<SearchResult, Manga, Chapter> {
+  getFilters(language: string): Promise<unknown[]>
   search(query: string, language: string, page: number): Promise<SearchResult[]>
   getManga(remoteId: string, language: string): Promise<Manga>
   getChapters(remoteId: string, language: string): Promise<Chapter[]>
