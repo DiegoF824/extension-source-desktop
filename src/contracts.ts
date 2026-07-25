@@ -6,7 +6,14 @@ export interface DesktopSourceManifest {
   version: string
   languages: string[]
   hosts: string[]
+  imageHosts?: string[]
   capabilities: Array<'search' | 'details' | 'chapters' | 'pages'>
+  contentRating?: 'safe' | 'adult'
+  verification?: {
+    kind: 'browser-cookie'
+    url: string
+    cookieNames: string[]
+  }
   license: string
 }
 
