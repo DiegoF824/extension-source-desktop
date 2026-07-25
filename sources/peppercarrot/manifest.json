@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "peppercarrot",
+  "name": "Pepper&Carrot",
+  "packageName": "eu.kanade.tachiyomi.extension.all.peppercarrot",
+  "version": "1.0.0",
+  "languages": ["pt-BR", "en"],
+  "hosts": ["www.peppercarrot.com"],
+  "capabilities": ["search", "details", "chapters", "pages"],
+  "license": "CC-BY-4.0"
+}

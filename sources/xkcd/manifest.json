@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "xkcd",
+  "name": "xkcd",
+  "packageName": "eu.kanade.tachiyomi.extension.all.xkcd",
+  "version": "1.0.0",
+  "languages": ["en"],
+  "hosts": ["xkcd.com", "imgs.xkcd.com"],
+  "capabilities": ["search", "details", "chapters", "pages"],
+  "license": "CC-BY-NC-2.5"
+}

@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "mangadex",
+  "name": "MangaDex",
+  "packageName": "eu.kanade.tachiyomi.extension.all.mangadex",
+  "version": "1.0.0",
+  "languages": ["pt-BR", "en", "es-419", "es", "fr", "ja"],
+  "hosts": ["api.mangadex.org", "uploads.mangadex.org", "*.mangadex.network"],
+  "capabilities": ["search", "details", "chapters", "pages"],
+  "license": "MIT"
+}
